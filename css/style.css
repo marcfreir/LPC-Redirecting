@@ -1,0 +1,72 @@
+/*
+ *
+ *
+ *
+ */
+
+ /* GLOBAL */
+ /* GENERAL - Screens */
+html, body {
+    width: 100vw;
+    height: 100%;
+    background-color: #1a1a1a;
+    font-family: "macha", sans-serif !important;
+}
+.logo {
+    margin: 15px 15px 15px 15px;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.logo img {
+    width: 500px;
+}
+
+.textLPC {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.otherwiseRedirect {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+a {
+    color: #a5cd39;
+}
+
+/* OTHER DEVICES */
+@media screen and (max-width: 640px) /* Weird Desktops */ {
+    .logo img {
+        width: 80%;
+    }
+    .textLPC {
+        /*margin: inherit;*/
+        margin-right: 15px;
+    }
+  }
+  
+  @media screen  and (max-width: 979px) /* Tablet */ {
+    .logo img {
+        width: 80%;
+    }
+    .textLPC {
+        /*margin: inherit;*/
+        margin-right: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) /* Mobile */ {
+    .logo img {
+        width: 70%;
+    }
+    .textLPC {
+        /*margin: inherit;*/
+        margin-right: 15px;
+    }
+  }
